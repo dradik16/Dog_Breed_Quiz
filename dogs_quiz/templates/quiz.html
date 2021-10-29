@@ -1,0 +1,14 @@
+
+{% extends "base.html" %}
+ 
+{% block content %}
+
+<h1 style="color:rgb(147, 43, 22)"> Guess the breed and tell me what you know about it</h1>
+<img src="{{random_image}}" alt="{{random_image}}" width="600" height="500">    
+<br>
+<a style="color:rgb(139, 27, 21)" href="{{ url_for('answer',random_image=random_image) }}">Answer</a>
+
+
+{% endblock %}
+
+

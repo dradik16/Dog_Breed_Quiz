@@ -1,0 +1,20 @@
+
+{% extends "base.html" %}
+ 
+{% block content %}
+
+<h1 style="color:rgb(147, 43, 22)"> The answer is:</h1>
+<img src="{{random_image}}" alt="{{random_image}}" width="400" height="350">  
+<br>
+<h1 style="color:rgb(219, 199, 24)"> {{doggie}}</h1>
+<h3 style="color:rgb(254, 254, 254)"> Adaptability: {{dog_adaptability}}</h3>
+<h3 style="color:rgb(254, 254, 254)"> Friendliness: {{dog_friendliness}}</h3>
+<h3 style="color:rgb(254, 254, 254)"> Intelligence: {{dog_intelligence}}</h3>
+<h3 style="color:rgb(254, 254, 254)"> Size: {{dog_size}}</h3>
+
+<a style="color:rgb(28, 119, 224)" href={{infa}}>weblink</a>
+<br>
+<a style="color:rgb(139, 27, 21)" href="{{ url_for('landing_page') }}">Back to Start</a>
+
+
+{% endblock %}

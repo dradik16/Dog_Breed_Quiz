@@ -1,0 +1,20 @@
+
+{% extends "base.html" %}
+ 
+    {% block content %}
+    
+   
+    <h1 style="color:rgb(232, 202, 53)"> Welcome to the dog breeds quiz!</h1>
+    
+    <h3 style="color:rgb(152, 23, 17)"> Family education and entertainment.</h3>
+    
+    <img src="{{ url_for('static', filename= 'coverquiz1.jpg') }}" alt="dog cover" width="600" height="500">    
+            
+     
+
+    
+    <br>
+    <a style="color:rgb(139, 27, 21)" href="{{ url_for('quiz') }}">Quiz</a>
+
+{% endblock %}
+

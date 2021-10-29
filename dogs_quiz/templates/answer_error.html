@@ -1,0 +1,13 @@
+
+{% extends "base.html" %}
+ 
+{% block content %}
+
+<h1 style="color:rgb(147, 43, 22)"> Try another image </h1>
+
+<img src="{{ url_for('static', filename= 'plaksa.jpg') }}" alt="dog cover" width="500" height="400"> 
+<br>
+<a style="color:rgb(147, 43, 22)" href="{{ url_for('landing_page') }}">Back to Start</a>
+
+
+{% endblock %}
