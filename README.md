@@ -19,4 +19,4 @@ Are listed in the requirements file though primarily
 The app was deployed via heroku flask. 
 
 Enjoy it at:
-https://dogbreedquiz2.herokuapp.com or download and run the python code with an option to replace or add dog image files to the image containing folder "webimages_dogs".
+https://dogbreedquiz2.herokuapp.com or download the content of the repository and run the python code app.py in your terminal with an option to replace or add new dog image files to the image containing folder "webimages_dogs".
